@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1976D2">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout4">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Reset  "
+            android:id="@+id/reset"
+            android:onClick="reset"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/menubtn"
+            style="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="25dp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  About  "
+            android:id="@+id/about"
+            android:onClick="about"
+            android:background="@drawable/menubtn"
+            android:layout_marginLeft="10dp"
+            style="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="25dp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Statistiken"
+        android:id="@+id/statistics"
+        android:onClick="statistics"
+        android:background="@drawable/menubtn"
+        style="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="30dp"
+        android:layout_above="@+id/linearLayout4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start!"
+        android:id="@+id/start"
+        android:onClick="start"
+        android:background="@drawable/menubtn"
+        android:allowUndo="false"
+        style="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="30dp"
+        android:layout_above="@+id/statistics"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp" />
+
+</RelativeLayout>

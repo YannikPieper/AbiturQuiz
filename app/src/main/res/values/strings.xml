@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Abi Quiz</string>
+
+    <string-array name="fach">
+        <item>Mathe</item>
+        <item>Deutsch</item>
+        <item>Englisch</item>
+        <item>Franzoesisch</item>
+        <item>Spanisch</item>
+        <item>Geschichte</item>
+        <item>Erdkunde</item>
+        <item>Sport</item>
+        <item>Chemie</item>
+        <item>Physik</item>
+        <item>Biologie</item>
+        <item>Bildende Kunst</item>
+        <item>Musik</item>
+        <item>Gemeinschaftskunde</item>
+    </string-array>
+
+    <string-array name="url">
+        <item>Mathe</item>
+        <item>Deutsch</item>
+        <item>Englisch</item>
+        <item>Franzoesisch</item>
+        <item>Spanisch</item>
+        <item>http://abi-question-service.herokuapp.com/search?subject=geschichte</item>
+        <item>Erdkunde</item>
+        <item>Sport</item>
+        <item>http://abi-question-service.herokuapp.com/search?subject=chemie</item>
+        <item>Physik</item>
+        <item>Biologie</item>
+        <item>Bildende Kunst</item>
+        <item>Musik</item>
+    </string-array>
+
+    <string-array name="kat_mathe">
+        <item>Keine Kategorien verfügbar</item>
+    </string-array>
+
+    <string-array name="kat_deutsch">
+        <item>Keine Kategorien verfügbar</item>
+    </string-array>
+
+    <string-array name="kat_englisch">
+        <item>Keine Kategorien verfügbar</item>
+    </string-array>
+
+    <string-array name="kat_französich">
+        <item>Keine Kategorien verfügbar</item>
+    </string-array>
+
+    <string-array name="kat_spanisch">
+        <item>Keine Kategorien verfügbar</item>
+    </string-array>
+
+    <string-array name="kat_geschichte">
+        <item>Bipolare Welt nach 45</item>
+        <item>Industrialisierung</item>
+    </string-array>
+
+    <string-array name="kat_erdkunde">
+        <item>Keine Kategorien verfügbar</item>
+    </string-array>
+
+    <string-array name="kat_sport">
+        <item>Keine Kategorien verfügbar</item>
+    </string-array>
+
+    <string-array name="kat_chemie">
+        <item>Keine Kategorien verfügbar</item>
+    </string-array>
+
+    <string-array name="kat_physik">
+        <item>Keine Kategorien verfügbar</item>
+    </string-array>
+
+    <string-array name="kat_biologie">
+        <item>Keine Kategorien verfügbar</item>
+    </string-array>
+
+    <string-array name="kat_bildendekunst">
+        <item>Keine Kategorien verfügbar</item>
+    </string-array>
+
+    <string-array name="kat_musik">
+        <item>Keine Kategorien verfügbar</item>
+    </string-array>
+
+    <string-array name="kat_gemeinschaftskunde">
+        <item>Keine Kategorien verfügbar</item>
+    </string-array>
+
+
+
+</resources>
